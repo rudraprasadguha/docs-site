@@ -19,8 +19,8 @@ This article describes how to provide and externalize the Zowe API ML onboarding
 
 **Note:** For more information about specific configuration parameters and their possible values, and the service registration process, see the specific documentation of the onboarding approach you are using for your project:
 
- * [Direct REST call registration (No enabler)](#api-mediation-onboard-rest-service-direct-eureka-call.md)
- * [Plain Java Enabler](#api-mediation-onboard-an-existing-java-rest-api-service-plain-java-enabler.md)
+ * [Direct REST call registration (No enabler)](api-mediation-onboard-rest-service-direct-eureka-call.md)
+ * [Plain Java Enabler](api-mediation-onboard-an-existing-java-rest-api-service_plain-java-enabler.md)
  
 
 The _PJE_ is the most universal Zowe API ML enabler. This enabler uses only Java, and does not use advanced Inversion of Control (_IoC_) or Dependency Injection (_DI_) technologies.
@@ -128,7 +128,7 @@ After successfully loading a configuration file, the loading method `loadConfigu
 ### Loading a single YAML configuration file
   
 To build your configuration from multiple sources, load a single configuration file, and then 
-rewrite parameters as needed using values from another configuration source. See: [Loading and merging two YAML configuration files](#Loading-and-merging-two-YAML-configuration-files) described later in this article.   
+rewrite parameters as needed using values from another configuration source. See: [Loading and merging two YAML configuration files](#Loading-and-merging-two-yaml-configuration-files) described later in this article.   
 
 Use the following method to load a single _YAML_ configuration file:
  
